@@ -32,7 +32,7 @@
             android:layout_weight="1"/>
     </RadioGroup>
 
-    <com.google.android.material.textfield.TextInputLayout
+    <RadioGroup
         android:id="@+id/til_search_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -175,6 +175,10 @@
                     android:text="Java Heap"
                     android:textColor="#FFFFFF"
                     android:buttonTint="@color/primary_hacker_green"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/layout_fuzzy_controls"
